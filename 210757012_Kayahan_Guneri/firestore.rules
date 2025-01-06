@@ -1,0 +1,20 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /events/{eventId} {
+      allow read, write: if request.auth != null;
+      
+      // Alt koleksiyonlar için de izin verelim
+      match /{document=**} {
+        allow read: if true;
+        allow write: if request.auth != null;
+      }
+    }
+    
+    // Genel okuma izni
+    match /{document=**} {
+      allow read: if true;
+      allow create, update, delete: if request.auth != null;
+    }
+  }
+} 
