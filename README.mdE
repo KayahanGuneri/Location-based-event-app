@@ -1,0 +1,238 @@
+EN
+# Event Discovery App
+
+## Introduction
+This is a location-based mobile application that helps users explore events happening nearby. From concerts and sports activities to family events and art exhibitions, users can discover, track, and manage their favorite events seamlessly. Built using **Flutter** for the frontend and **Firebase** for the backend, this app offers a modern, fast, and reliable experience.
+
+---
+
+## Features
+
+### 1. User Authentication
+- **Email Login**: Secure login using email and password.
+- **Google Sign-In**: Easy authentication with Google accounts.
+- **Password Recovery**: Forgot password? Recover your account effortlessly.
+
+![Login Screen](./assets/1.png)
+
+### 2. Event Discovery
+- Explore events by categories such as music, sports, art, and family.
+- Search events with a keyword.
+
+![Event List](./assets/2.png)
+
+### 3. Profile Management
+- Update personal details like name and email.
+- Manage notification preferences:
+  - Enable/disable notifications.
+  - Get reminders for new events, updates, or upcoming events.
+- View and manage favorite events.
+
+![Profile Management](./assets/3.png)
+
+### 4. Interactive Map
+- View event locations on a map.
+- Plan routes to events directly within the app.
+
+![Event Map](./assets/4.png)
+![Route Planning](./assets/5.png)
+
+### 5. Easy Registration
+- Create a new account by providing basic details like name, email, and password.
+
+![Registration Screen](./assets/6.png)
+
+---
+
+## Technology Stack
+
+- **Frontend**: Flutter
+- **Backend**: Firebase
+  - Authentication
+  - Real-time Database
+  - Cloud Messaging
+- **Maps**: Google Maps API
+
+---
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/event-discovery-app.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd event-discovery-app
+   ```
+
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+4. Configure Firebase:
+   - Add your `google-services.json` (Android) or `GoogleService-Info.plist` (iOS) to the respective directories.
+
+5. Run the application:
+   ```bash
+   flutter run
+   ```
+
+---
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Create a pull request.
+
+---
+
+## Screenshots
+
+| Login | Event List | Profile |
+|-------|------------|---------|
+| ![Login](./assets/1.png) | ![Event List](./assets/2.png) | ![Profile](./assets/3.png) |
+
+| Event Map | Route | Registration |
+|-----------|-------|--------------|
+| ![Map](./assets/4.png) | ![Route](./assets/5.png) | ![Registration](./assets/6.png) |
+
+---
+
+
+---
+
+
+TR
+
+# Etkinlik Keşif Uygulaması
+
+## Giriş
+Bu, kullanıcıların çevrelerindeki etkinlikleri keşfetmelerine yardımcı olan konum tabanlı bir mobil uygulamadır. Konserlerden spor etkinliklerine, aile etkinliklerinden sanat sergilerine kadar, kullanıcılar ilgi alanlarına uygun etkinlikleri kolayca bulabilir, takip edebilir ve favori etkinliklerini yönetebilir. **Flutter** ve **Firebase** teknolojileriyle geliştirilen bu uygulama modern, hızlı ve güvenilir bir deneyim sunuyor.
+
+---
+
+## Özellikler
+
+### 1. Kullanıcı Girişi
+- **E-posta ile Giriş**: E-posta ve şifre kullanarak güvenli giriş.
+- **Google ile Giriş**: Google hesaplarıyla kolay kimlik doğrulama.
+- **Şifre Kurtarma**: Şifrenizi mi unuttunuz? Hesabınızı kolayca kurtarın.
+
+![Giriş Ekranı](./assets/1.png)
+
+### 2. Etkinlik Keşfi
+- Müzik, spor, sanat ve aile gibi kategorilere göre etkinlikleri keşfedin.
+- Anahtar kelime ile etkinlik arayın.
+
+![Etkinlik Listesi](./assets/2.png)
+
+### 3. Profil Yönetimi
+- Ad ve e-posta gibi kişisel bilgilerinizi güncelleyin.
+- Bildirim tercihlerinizi yönetin:
+  - Bildirimleri etkinleştir veya devre dışı bırak.
+  - Yeni etkinlikler, hatırlatmalar veya güncellemeler için bildirim alın.
+- Favori etkinliklerinizi görüntüleyin ve yönetin.
+
+![Profil Yönetimi](./assets/3.png)
+
+### 4. Etkileşimli Harita
+- Etkinlik konumlarını haritada görüntüleyin.
+- Uygulama içerisinden etkinliklere rota planlayın.
+
+![Etkinlik Haritası](./assets/4.png)
+![Rota Planlama](./assets/5.png)
+
+### 5. Kolay Kayıt
+- Ad, e-posta ve şifre gibi temel bilgileri sağlayarak yeni bir hesap oluşturun.
+
+![Kayıt Ekranı](./assets/6.png)
+
+---
+
+## Teknoloji Yığını
+
+- **Frontend**: Flutter
+- **Backend**: Firebase
+  - Kimlik Doğrulama
+  - Gerçek Zamanlı Veritabanı
+  - Bulut Mesajlaşma
+- **Haritalar**: Google Maps API
+
+---
+
+## Kurulum Talimatları
+
+1. Depoyu klonlayın:
+   ```bash
+   git clone https://github.com/your-username/event-discovery-app.git
+   ```
+
+2. Proje dizinine gidin:
+   ```bash
+   cd event-discovery-app
+   ```
+
+3. Bağımlılıkları yükleyin:
+   ```bash
+   flutter pub get
+   ```
+
+4. Firebase yapılandırmasını yapın:
+   - `google-services.json` (Android) veya `GoogleService-Info.plist` (iOS) dosyalarını ilgili dizinlere ekleyin.
+
+5. Uygulamayı çalıştırın:
+   ```bash
+   flutter run
+   ```
+
+---
+
+## Katkıda Bulunma
+
+Katkılarınızı bekliyoruz! Lütfen şu adımları takip edin:
+
+1. Depoyu çatallayın (fork).
+2. Yeni bir dal oluşturun:
+   ```bash
+   git checkout -b ozellik-adi
+   ```
+3. Değişikliklerinizi işleyin:
+   ```bash
+   git commit -m "Mesajınızı buraya yazın"
+   ```
+4. Dalı gönderin:
+   ```bash
+   git push origin ozellik-adi
+   ```
+5. Bir çekme isteği (pull request) oluşturun.
+
+---
+
+## Ekran Görüntüleri
+
+| Giriş | Etkinlik Listesi | Profil |
+|-------|------------------|--------|
+| ![Giriş](./assets/1.png) | ![Etkinlik Listesi](./assets/2.png) | ![Profil](./assets/3.png) |
+
+| Etkinlik Haritası | Rota | Kayıt |
+|-------------------|------|-------|
+| ![Harita](./assets/4.png) | ![Rota](./assets/5.png) | ![Kayıt](./assets/6.png) |
+
+
